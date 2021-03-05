@@ -1,0 +1,187 @@
+[
+  {
+    "alignment": "",
+    "allies_organizations": "",
+    "armor_class": 0,
+    "background": "",
+    "bonds": [],
+    "character": {
+      "age": 0,
+      "eyes": "",
+      "hair": "",
+      "height": "",
+      "skin": "",
+      "weight (lbs)": 0
+    },
+    "character_backstory": "",
+    "character_name": "",
+    "class_level": {
+      "": 0
+    },
+    "death_saves": {
+      "failures": 0,
+      "successes": 0
+    },
+    "equipment": [],
+    "experience": 0,
+    "features_traits": [],
+    "flaws": [],
+    "hit_dice": {
+      "remaining": 0,
+      "total": 0,
+      "type": 0
+    },
+    "hit_points": {
+      "current": 0,
+      "maximum": 0,
+      "temporary": 0
+    },
+    "ideals": [],
+    "initiative": 0,
+    "inspirations": 0,
+    "money": {
+      "copper": 0,
+      "electrum": 0,
+      "gold": 0,
+      "platinum": 0,
+      "silver": 0
+    },
+    "passive_perception": 0,
+    "personality_traits": [],
+    "player_name": "",
+    "proficiency_bonus": 0,
+    "proficiency_languages": {
+      "armor": "",
+      "languages": "",
+      "tools": "",
+      "weapons": ""
+    },
+    "race": "",
+    "saving_throws": {
+      "charisma": [
+        false,
+        0
+      ],
+      "constitution": [
+        false,
+        0
+      ],
+      "dexterity": [
+        false,
+        0
+      ],
+      "intelligence": [
+        false,
+        0
+      ],
+      "strength": [
+        false,
+        0
+      ],
+      "wisdom": [
+        false,
+        0
+      ]
+    },
+    "skills": {
+      "acrobatics": [
+        false,
+        0
+      ],
+      "animal_handling": [
+        false,
+        0
+      ],
+      "arcana": [
+        false,
+        0
+      ],
+      "athletics": [
+        false,
+        0
+      ],
+      "deception": [
+        false,
+        0
+      ],
+      "history": [
+        false,
+        0
+      ],
+      "insight": [
+        false,
+        0
+      ],
+      "intimidation": [
+        false,
+        0
+      ],
+      "investigation": [
+        false,
+        0
+      ],
+      "medicine": [
+        false,
+        0
+      ],
+      "nature": [
+        false,
+        0
+      ],
+      "perception": [
+        false,
+        0
+      ],
+      "performance": [
+        false,
+        0
+      ],
+      "persuasion": [
+        false,
+        0
+      ],
+      "religion": [
+        false,
+        0
+      ],
+      "sleight_of_hand": [
+        false,
+        0
+      ],
+      "stealth": [
+        false,
+        0
+      ],
+      "survival": [
+        false,
+        0
+      ]
+    },
+    "speed": 0,
+    "spells": {
+      "cantrips": [
+        "Spare the Dying"
+      ],
+      "level_1": [],
+      "level_2": [],
+      "level_3": [],
+      "level_4": [],
+      "level_5": [],
+      "level_6": [],
+      "level_7": [],
+      "level_8": [],
+      "level_9": [],
+      "spell_attack_bonus": 0,
+      "spell_save_dc": 0,
+      "spellcasting_ability": ""
+    },
+    "stats": {
+      "charisma": 0,
+      "constitution": 0,
+      "dexterity": 0,
+      "intelligence": 0,
+      "strength": 0,
+      "wisdom": 0
+    }
+  }
+]

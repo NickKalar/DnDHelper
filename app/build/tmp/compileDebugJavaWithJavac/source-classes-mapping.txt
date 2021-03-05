@@ -1,0 +1,10 @@
+com/example/dndhelper/databinding/ActivityCharactersBinding.java
+ com.example.dndhelper.databinding.ActivityCharactersBinding
+com/example/dndhelper/databinding/ActivitySpellListBinding.java
+ com.example.dndhelper.databinding.ActivitySpellListBinding
+com/example/dndhelper/databinding/ActivityMainBinding.java
+ com.example.dndhelper.databinding.ActivityMainBinding
+com/example/dndhelper/BuildConfig.java
+ com.example.dndhelper.BuildConfig
+com/example/dndhelper/databinding/ActivityNewCharacterSheetBinding.java
+ com.example.dndhelper.databinding.ActivityNewCharacterSheetBinding

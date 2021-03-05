@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">D&amp;D Helper</string>
+    <string name="spell_list">Spell List</string>
+    <string name="character_sheets">Character Sheets</string>
+    <string name="d_d_logo"><![CDATA[D&D Logo]]></string>
+    <string name="add_new_character">Add New Character</string>
+</resources>

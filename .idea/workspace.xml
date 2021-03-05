@@ -10,7 +10,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c84a2d8c-76cd-4772-b32a-0e46db7c2d68" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="c84a2d8c-76cd-4772-b32a-0e46db7c2d68" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614969254802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1614971886212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614971886213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,10 +203,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="212" y="79" key="SettingsEditor/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614971008522" />
-    <state x="311" y="167" key="Vcs.Push.Dialog.v2" timestamp="1614969346708">
+    <state x="311" y="167" key="Vcs.Push.Dialog.v2" timestamp="1614971913972">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="311" y="167" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614969346708" />
+    <state x="311" y="167" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614971913972" />
     <state x="490" y="225" key="chooseDestDirectoryDialog" timestamp="1614968604891">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

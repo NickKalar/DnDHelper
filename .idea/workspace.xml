@@ -10,7 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c84a2d8c-76cd-4772-b32a-0e46db7c2d68" name="Default Changelist" comment="initial commit">
+    <list default="true" id="c84a2d8c-76cd-4772-b32a-0e46db7c2d68" name="Default Changelist" comment="change to workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614971886213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change to workspace.xml">
+      <created>1614980058050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614980058050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,7 +171,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="change to workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1614915515530">
@@ -203,10 +211,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="212" y="79" key="SettingsEditor/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614971008522" />
-    <state x="311" y="167" key="Vcs.Push.Dialog.v2" timestamp="1614971913972">
+    <state x="311" y="167" key="Vcs.Push.Dialog.v2" timestamp="1614980120523">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="311" y="167" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614971913972" />
+    <state x="311" y="167" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1614980120523" />
     <state x="490" y="225" key="chooseDestDirectoryDialog" timestamp="1614968604891">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -215,10 +224,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="111" y="126" width="1200" height="635" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614971009213" />
-    <state x="494" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614969402232">
+    <state x="494" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614980205477">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="494" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875/1440.25.1920.1055@0.25.1440.875" timestamp="1614969402232" />
+    <state x="494" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1614980205477" />
     <state x="533" y="341" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1614969205749">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

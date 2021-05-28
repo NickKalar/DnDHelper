@@ -159,9 +159,7 @@
     },
     "speed": 0,
     "spells": {
-      "cantrips": [
-        "Spare the Dying"
-      ],
+      "cantrips": [],
       "level_1": [],
       "level_2": [],
       "level_3": [],

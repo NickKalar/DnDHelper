@@ -4,6 +4,10 @@ package com.example.dndhelper.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -11,13 +15,166 @@ import androidx.viewbinding.ViewBinding;
 import com.example.dndhelper.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityNewCharacterSheetBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityNewCharacterSheetBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final EditText armorClass;
+
+  @NonNull
+  public final Button btnSave;
+
+  @NonNull
+  public final CheckBox charAcro;
+
+  @NonNull
+  public final EditText charAlign;
+
+  @NonNull
+  public final CheckBox charAnim;
+
+  @NonNull
+  public final CheckBox charArcana;
+
+  @NonNull
+  public final CheckBox charAth;
+
+  @NonNull
+  public final EditText charChar;
+
+  @NonNull
+  public final EditText charClass;
+
+  @NonNull
+  public final EditText charCon;
+
+  @NonNull
+  public final CheckBox charDecep;
+
+  @NonNull
+  public final EditText charDex;
+
+  @NonNull
+  public final EditText charExp;
+
+  @NonNull
+  public final CheckBox charHist;
+
+  @NonNull
+  public final CheckBox charInsi;
+
+  @NonNull
+  public final EditText charInt;
+
+  @NonNull
+  public final CheckBox charIntim;
+
+  @NonNull
+  public final CheckBox charInvest;
+
+  @NonNull
+  public final EditText charLevel;
+
+  @NonNull
+  public final TextView charMod;
+
+  @NonNull
+  public final EditText charName;
+
+  @NonNull
+  public final EditText charRace;
+
+  @NonNull
+  public final TextView charSkill;
+
+  @NonNull
+  public final EditText charStr;
+
+  @NonNull
+  public final EditText charWis;
+
+  @NonNull
+  public final TextView conMod;
+
+  @NonNull
+  public final TextView dexMod;
+
+  @NonNull
+  public final TextView intMod;
+
+  @NonNull
+  public final EditText playerEquip;
+
+  @NonNull
+  public final EditText playerName;
+
+  @NonNull
+  public final EditText playerName4;
+
+  @NonNull
+  public final EditText playerSpeed;
+
+  @NonNull
+  public final EditText profLang;
+
+  @NonNull
+  public final TextView strMod;
+
+  @NonNull
+  public final TextView wisMod;
+
+  private ActivityNewCharacterSheetBinding(@NonNull ConstraintLayout rootView,
+      @NonNull EditText armorClass, @NonNull Button btnSave, @NonNull CheckBox charAcro,
+      @NonNull EditText charAlign, @NonNull CheckBox charAnim, @NonNull CheckBox charArcana,
+      @NonNull CheckBox charAth, @NonNull EditText charChar, @NonNull EditText charClass,
+      @NonNull EditText charCon, @NonNull CheckBox charDecep, @NonNull EditText charDex,
+      @NonNull EditText charExp, @NonNull CheckBox charHist, @NonNull CheckBox charInsi,
+      @NonNull EditText charInt, @NonNull CheckBox charIntim, @NonNull CheckBox charInvest,
+      @NonNull EditText charLevel, @NonNull TextView charMod, @NonNull EditText charName,
+      @NonNull EditText charRace, @NonNull TextView charSkill, @NonNull EditText charStr,
+      @NonNull EditText charWis, @NonNull TextView conMod, @NonNull TextView dexMod,
+      @NonNull TextView intMod, @NonNull EditText playerEquip, @NonNull EditText playerName,
+      @NonNull EditText playerName4, @NonNull EditText playerSpeed, @NonNull EditText profLang,
+      @NonNull TextView strMod, @NonNull TextView wisMod) {
     this.rootView = rootView;
+    this.armorClass = armorClass;
+    this.btnSave = btnSave;
+    this.charAcro = charAcro;
+    this.charAlign = charAlign;
+    this.charAnim = charAnim;
+    this.charArcana = charArcana;
+    this.charAth = charAth;
+    this.charChar = charChar;
+    this.charClass = charClass;
+    this.charCon = charCon;
+    this.charDecep = charDecep;
+    this.charDex = charDex;
+    this.charExp = charExp;
+    this.charHist = charHist;
+    this.charInsi = charInsi;
+    this.charInt = charInt;
+    this.charIntim = charIntim;
+    this.charInvest = charInvest;
+    this.charLevel = charLevel;
+    this.charMod = charMod;
+    this.charName = charName;
+    this.charRace = charRace;
+    this.charSkill = charSkill;
+    this.charStr = charStr;
+    this.charWis = charWis;
+    this.conMod = conMod;
+    this.dexMod = dexMod;
+    this.intMod = intMod;
+    this.playerEquip = playerEquip;
+    this.playerName = playerName;
+    this.playerName4 = playerName4;
+    this.playerSpeed = playerSpeed;
+    this.profLang = profLang;
+    this.strMod = strMod;
+    this.wisMod = wisMod;
   }
 
   @Override
@@ -43,10 +200,227 @@ public final class ActivityNewCharacterSheetBinding implements ViewBinding {
 
   @NonNull
   public static ActivityNewCharacterSheetBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.armorClass;
+      EditText armorClass = rootView.findViewById(id);
+      if (armorClass == null) {
+        break missingId;
+      }
 
-    return new ActivityNewCharacterSheetBinding((ConstraintLayout) rootView);
+      id = R.id.btnSave;
+      Button btnSave = rootView.findViewById(id);
+      if (btnSave == null) {
+        break missingId;
+      }
+
+      id = R.id.charAcro;
+      CheckBox charAcro = rootView.findViewById(id);
+      if (charAcro == null) {
+        break missingId;
+      }
+
+      id = R.id.charAlign;
+      EditText charAlign = rootView.findViewById(id);
+      if (charAlign == null) {
+        break missingId;
+      }
+
+      id = R.id.charAnim;
+      CheckBox charAnim = rootView.findViewById(id);
+      if (charAnim == null) {
+        break missingId;
+      }
+
+      id = R.id.charArcana;
+      CheckBox charArcana = rootView.findViewById(id);
+      if (charArcana == null) {
+        break missingId;
+      }
+
+      id = R.id.charAth;
+      CheckBox charAth = rootView.findViewById(id);
+      if (charAth == null) {
+        break missingId;
+      }
+
+      id = R.id.charChar;
+      EditText charChar = rootView.findViewById(id);
+      if (charChar == null) {
+        break missingId;
+      }
+
+      id = R.id.charClass;
+      EditText charClass = rootView.findViewById(id);
+      if (charClass == null) {
+        break missingId;
+      }
+
+      id = R.id.charCon;
+      EditText charCon = rootView.findViewById(id);
+      if (charCon == null) {
+        break missingId;
+      }
+
+      id = R.id.charDecep;
+      CheckBox charDecep = rootView.findViewById(id);
+      if (charDecep == null) {
+        break missingId;
+      }
+
+      id = R.id.charDex;
+      EditText charDex = rootView.findViewById(id);
+      if (charDex == null) {
+        break missingId;
+      }
+
+      id = R.id.charExp;
+      EditText charExp = rootView.findViewById(id);
+      if (charExp == null) {
+        break missingId;
+      }
+
+      id = R.id.charHist;
+      CheckBox charHist = rootView.findViewById(id);
+      if (charHist == null) {
+        break missingId;
+      }
+
+      id = R.id.charInsi;
+      CheckBox charInsi = rootView.findViewById(id);
+      if (charInsi == null) {
+        break missingId;
+      }
+
+      id = R.id.charInt;
+      EditText charInt = rootView.findViewById(id);
+      if (charInt == null) {
+        break missingId;
+      }
+
+      id = R.id.charIntim;
+      CheckBox charIntim = rootView.findViewById(id);
+      if (charIntim == null) {
+        break missingId;
+      }
+
+      id = R.id.charInvest;
+      CheckBox charInvest = rootView.findViewById(id);
+      if (charInvest == null) {
+        break missingId;
+      }
+
+      id = R.id.charLevel;
+      EditText charLevel = rootView.findViewById(id);
+      if (charLevel == null) {
+        break missingId;
+      }
+
+      id = R.id.charMod;
+      TextView charMod = rootView.findViewById(id);
+      if (charMod == null) {
+        break missingId;
+      }
+
+      id = R.id.charName;
+      EditText charName = rootView.findViewById(id);
+      if (charName == null) {
+        break missingId;
+      }
+
+      id = R.id.charRace;
+      EditText charRace = rootView.findViewById(id);
+      if (charRace == null) {
+        break missingId;
+      }
+
+      id = R.id.charSkill;
+      TextView charSkill = rootView.findViewById(id);
+      if (charSkill == null) {
+        break missingId;
+      }
+
+      id = R.id.charStr;
+      EditText charStr = rootView.findViewById(id);
+      if (charStr == null) {
+        break missingId;
+      }
+
+      id = R.id.charWis;
+      EditText charWis = rootView.findViewById(id);
+      if (charWis == null) {
+        break missingId;
+      }
+
+      id = R.id.conMod;
+      TextView conMod = rootView.findViewById(id);
+      if (conMod == null) {
+        break missingId;
+      }
+
+      id = R.id.dexMod;
+      TextView dexMod = rootView.findViewById(id);
+      if (dexMod == null) {
+        break missingId;
+      }
+
+      id = R.id.intMod;
+      TextView intMod = rootView.findViewById(id);
+      if (intMod == null) {
+        break missingId;
+      }
+
+      id = R.id.playerEquip;
+      EditText playerEquip = rootView.findViewById(id);
+      if (playerEquip == null) {
+        break missingId;
+      }
+
+      id = R.id.playerName;
+      EditText playerName = rootView.findViewById(id);
+      if (playerName == null) {
+        break missingId;
+      }
+
+      id = R.id.playerName4;
+      EditText playerName4 = rootView.findViewById(id);
+      if (playerName4 == null) {
+        break missingId;
+      }
+
+      id = R.id.playerSpeed;
+      EditText playerSpeed = rootView.findViewById(id);
+      if (playerSpeed == null) {
+        break missingId;
+      }
+
+      id = R.id.profLang;
+      EditText profLang = rootView.findViewById(id);
+      if (profLang == null) {
+        break missingId;
+      }
+
+      id = R.id.strMod;
+      TextView strMod = rootView.findViewById(id);
+      if (strMod == null) {
+        break missingId;
+      }
+
+      id = R.id.wisMod;
+      TextView wisMod = rootView.findViewById(id);
+      if (wisMod == null) {
+        break missingId;
+      }
+
+      return new ActivityNewCharacterSheetBinding((ConstraintLayout) rootView, armorClass, btnSave,
+          charAcro, charAlign, charAnim, charArcana, charAth, charChar, charClass, charCon,
+          charDecep, charDex, charExp, charHist, charInsi, charInt, charIntim, charInvest,
+          charLevel, charMod, charName, charRace, charSkill, charStr, charWis, conMod, dexMod,
+          intMod, playerEquip, playerName, playerName4, playerSpeed, profLang, strMod, wisMod);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

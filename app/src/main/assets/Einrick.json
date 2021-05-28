@@ -1,0 +1,203 @@
+[
+  {
+    "alignment": "Neutral Good",
+    "allies_organizations": "",
+    "armor_class": 17,
+    "background": "Folk Hero",
+    "bonds": [],
+    "character": {
+      "age": 32,
+      "eyes": "Green",
+      "hair": "Dark Brown",
+      "height": "4'6",
+      "skin": "Olive",
+      "weight (lbs)": 135
+    },
+    "character_backstory": "",
+    "character_name": "Einrick",
+    "class_level": {
+      "Cleric": 1
+    },
+    "death_saves": {
+      "failures": 0,
+      "successes": 0
+    },
+    "equipment": [],
+    "experience": 0,
+    "features_traits": [],
+    "flaws": [],
+    "hit_dice": {
+      "remaining": 1,
+      "total": 1,
+      "type": 8
+    },
+    "hit_points": {
+      "current": 12,
+      "maximum": 12,
+      "temporary": 0
+    },
+    "ideals": [],
+    "initiative": 0,
+    "inspirations": 0,
+    "money": {
+      "copper": 0,
+      "electrum": 0,
+      "gold": 10,
+      "platinum": 0,
+      "silver": 0
+    },
+    "passive_perception": 14,
+    "personality_traits": [],
+    "player_name": "Nicholas",
+    "proficiency_bonus": 2,
+    "proficiency_languages": {
+      "armor": "heavy Armor, Light Armor, Medium Armor, Shields",
+      "languages": "Common, Dwarvish",
+      "tools": "Mason's Tools, Smith's Tools, Vehicles (land)",
+      "weapons": "Battleaxe, Simple Weapons, Warhammer"
+    },
+    "race": "Mountain Dwarf",
+    "saving_throws": {
+      "charisma": [
+        true,
+        5
+      ],
+      "constitution": [
+        false,
+        4
+      ],
+      "dexterity": [
+        false,
+        1
+      ],
+      "intelligence": [
+        false,
+        2
+      ],
+      "strength": [
+        false,
+        4
+      ],
+      "wisdom": [
+        true,
+        6
+      ]
+    },
+    "skills": {
+      "acrobatics": [
+        false,
+        1
+      ],
+      "animal_handling": [
+        true,
+        6
+      ],
+      "arcana": [
+        false,
+        2
+      ],
+      "athletics": [
+        false,
+        4
+      ],
+      "deception": [
+        false,
+        3
+      ],
+      "history": [
+        false,
+        2
+      ],
+      "insight": [
+        false,
+        4
+      ],
+      "intimidation": [
+        false,
+        3
+      ],
+      "investigation": [
+        false,
+        3
+      ],
+      "medicine": [
+        false,
+        4
+      ],
+      "nature": [
+        false,
+        2
+      ],
+      "perception": [
+        false,
+        4
+      ],
+      "performance": [
+        false,
+        3
+      ],
+      "persuasion": [
+        true,
+        5
+      ],
+      "religion": [
+        true,
+        4
+      ],
+      "sleight_of_hand": [
+        false,
+        1
+      ],
+      "stealth": [
+        false,
+        1
+      ],
+      "survival": [
+        true,
+        6
+      ]
+    },
+    "speed": {
+      "walking": 25,
+      "flying": 0,
+      "running": 50
+    },
+    "spells": {
+      "cantrips": ["Spare the Dying", "Guidance", "Light"],
+      "level_1": ["Bless", "Cure Wounds", "Guiding Bolt", "Inflict Wounds", "Identify",
+        "Protection from Good and Evil", "Sanctuary", "Shield of Faith", "Detect Good and Evil",
+      "Detect Magic", "Detect Poison and Disease", "Bane", "Command", "Healing Word",
+        "Create or Destroy Water", "Purify Food and Drink"],
+      "level_2": [],
+      "level_3": [],
+      "level_4": [],
+      "level_5": [],
+      "level_6": [],
+      "level_7": [],
+      "level_8": [],
+      "level_9": [],
+      "spell_attack_bonus": 0,
+      "spell_save_dc": 0,
+      "spell slots": {
+        "level_1": [2, 2],
+        "level_2": [0, 0],
+        "level_3": [0, 0],
+        "level_4": [0, 0],
+        "level_5": [0, 0],
+        "level_6": [0, 0],
+        "level_7": [0, 0],
+        "level_8": [0, 0],
+        "level_9": [0, 0]
+      },
+      "spellcasting_ability": ""
+    },
+    "stats": {
+      "charisma": 16,
+      "constitution": 19,
+      "dexterity": 12,
+      "intelligence": 14,
+      "strength": 18,
+      "wisdom": 18
+    }
+  }
+]

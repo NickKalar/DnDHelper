@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_red_dark"
         android:text="@string/character_sheets"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -22,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_red_dark"
         android:text="@string/spell_list"
         app:layout_constraintStart_toStartOf="@+id/characterSelect"
         app:layout_constraintTop_toBottomOf="@+id/characterSelect" />

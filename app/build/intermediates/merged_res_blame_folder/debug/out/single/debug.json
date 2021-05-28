@@ -4,6 +4,10 @@
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_parchment_background.png.flat",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/parchment_background.png"
+    },
+    {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

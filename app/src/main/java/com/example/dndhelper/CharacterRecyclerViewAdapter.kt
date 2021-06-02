@@ -17,7 +17,8 @@ import androidx.recyclerview.widget.RecyclerView
 
 private const val TAG = "CharRecViewAdapter"
 
-class CharacterRecyclerViewAdapter(private var charList: List<Sheet>) : RecyclerView.Adapter<CharacterRecyclerViewAdapter.CharacterViewHolder>() {
+class CharacterRecyclerViewAdapter(private var charList: List<Sheet>) :
+        RecyclerView.Adapter<CharacterRecyclerViewAdapter.CharacterViewHolder>() {
 
     class CharacterViewHolder(view: View) : RecyclerView.ViewHolder(view){
         var classImage : ImageView = view.findViewById(R.id.classImg)

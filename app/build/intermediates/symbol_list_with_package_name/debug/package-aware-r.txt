@@ -1501,6 +1501,7 @@ id charInvest
 id charLevel
 id charMod
 id charName
+id charNameSelect
 id charRace
 id charSkill
 id charStr
@@ -1511,6 +1512,7 @@ id checked
 id chip
 id chip_group
 id chronometer
+id classImg
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -1676,7 +1678,10 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spellClasses
+id spellLevel
 id spellList
+id spellName
 id split_action_bar
 id spread
 id spread_inside
@@ -1798,6 +1803,8 @@ layout activity_characters
 layout activity_main
 layout activity_new_character_sheet
 layout activity_spell_list
+layout browse_character
+layout browse_spells
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

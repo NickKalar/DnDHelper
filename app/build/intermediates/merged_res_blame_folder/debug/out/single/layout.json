@@ -12,7 +12,15 @@
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/activity_characters.xml"
     },
     {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/browse_spells.xml",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/browse_spells.xml"
+    },
+    {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_spell_list.xml",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/activity_spell_list.xml"
+    },
+    {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/browse_character.xml",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/browse_character.xml"
     }
 ]

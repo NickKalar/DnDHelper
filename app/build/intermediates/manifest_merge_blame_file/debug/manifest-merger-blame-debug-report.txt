@@ -10,59 +10,63 @@
 9        android:targetSdkVersion="30" />
 9-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:5:5-31:19
-12        android:allowBackup="true"
-12-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.2.0] /Users/nick/.gradle/caches/transforms-2/files-2.1/c4f6d4015757376d628b196fc1c781b3/core-1.2.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@drawable/icon_400x400"
-15-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:7:9-46
-16        android:label="@string/app_name"
-16-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@drawable/icon_400x400"
-17-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:9:9-51
-18        android:supportsRtl="true"
-18-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.DnDHelper" >
-20-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:11:9-47
-21        <activity android:name="com.example.dndhelper.MainActivity" >
-21-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:14:17-69
-23-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:16:17-77
-25-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity
-28-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:19:9-22:20
-29            android:name="com.example.dndhelper.CharactersActivity"
-29-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:20:13-47
-30            android:label="Characters" >
-30-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:21:13-39
-31        </activity>
-32        <activity
-32-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:23:9-26:20
-33            android:name="com.example.dndhelper.SpellListActivity"
-33-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:24:13-46
-34            android:label="Spell List" >
-34-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:25:13-39
-35        </activity>
-36        <activity
-36-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:27:9-30:20
-37            android:name="com.example.dndhelper.NewCharacterSheetActivity"
-37-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:28:13-54
-38            android:label="New Character" >
-38-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:29:13-42
-39        </activity>
-40    </application>
-41
-42</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:5:5-31:19
+14        android:allowBackup="true"
+14-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.2.0] /Users/nick/.gradle/caches/transforms-2/files-2.1/c4f6d4015757376d628b196fc1c781b3/core-1.2.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@drawable/icon_400x400"
+17-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:7:9-46
+18        android:label="@string/app_name"
+18-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:8:9-41
+19        android:roundIcon="@drawable/icon_400x400"
+19-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:9:9-51
+20        android:supportsRtl="true"
+20-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.DnDHelper" >
+22-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:11:9-47
+23        <activity android:name="com.example.dndhelper.MainActivity" >
+23-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:12:9-18:20
+23-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:12:19-47
+24            <intent-filter>
+24-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:14:17-69
+25-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:16:17-77
+27-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:19:9-22:20
+31            android:name="com.example.dndhelper.CharactersActivity"
+31-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:20:13-47
+32            android:label="Characters" >
+32-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:21:13-39
+33        </activity>
+34        <activity
+34-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:23:9-26:20
+35            android:name="com.example.dndhelper.SpellListActivity"
+35-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:24:13-46
+36            android:label="Spell List" >
+36-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:25:13-39
+37        </activity>
+38        <activity
+38-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:27:9-30:20
+39            android:name="com.example.dndhelper.NewCharacterSheetActivity"
+39-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:28:13-54
+40            android:label="New Character" >
+40-->/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/AndroidManifest.xml:29:13-42
+41        </activity>
+42    </application>
+43
+44</manifest>

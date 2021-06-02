@@ -7,17 +7,24 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.dndhelper.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivitySpellListBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivitySpellListBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final RecyclerView recyclerView;
+
+  private ActivitySpellListBinding(@NonNull ConstraintLayout rootView,
+      @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
+    this.recyclerView = recyclerView;
   }
 
   @Override
@@ -43,10 +50,19 @@ public final class ActivitySpellListBinding implements ViewBinding {
 
   @NonNull
   public static ActivitySpellListBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = rootView.findViewById(id);
+      if (recyclerView == null) {
+        break missingId;
+      }
 
-    return new ActivitySpellListBinding((ConstraintLayout) rootView);
+      return new ActivitySpellListBinding((ConstraintLayout) rootView, recyclerView);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

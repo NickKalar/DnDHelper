@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_parchment_background.png.flat",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/parchment_background.png"
+    },
+    {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -16,12 +16,12 @@
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/default_image.png"
     },
     {
-        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_fighter.png.flat",
-        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/fighter.png"
-    },
-    {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_fighter.png.flat",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/fighter.png"
     },
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -50,6 +50,10 @@
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/layout_activity_spell_list.xml.flat",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/activity_spell_list.xml"
+    },
+    {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/layout_browse_character.xml.flat",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/browse_character.xml"
     },
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -86,6 +90,10 @@
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_cleric.png.flat",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/cleric.png"
+    },
+    {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/layout_browse_spells.xml.flat",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/layout/browse_spells.xml"
     },
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_monk.png.flat",

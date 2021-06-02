@@ -2,6 +2,10 @@ com/example/dndhelper/databinding/ActivityCharactersBinding.java
  com.example.dndhelper.databinding.ActivityCharactersBinding
 com/example/dndhelper/databinding/ActivitySpellListBinding.java
  com.example.dndhelper.databinding.ActivitySpellListBinding
+com/example/dndhelper/databinding/BrowseCharacterBinding.java
+ com.example.dndhelper.databinding.BrowseCharacterBinding
+com/example/dndhelper/databinding/BrowseSpellsBinding.java
+ com.example.dndhelper.databinding.BrowseSpellsBinding
 com/example/dndhelper/databinding/ActivityMainBinding.java
  com.example.dndhelper.databinding.ActivityMainBinding
 com/example/dndhelper/BuildConfig.java

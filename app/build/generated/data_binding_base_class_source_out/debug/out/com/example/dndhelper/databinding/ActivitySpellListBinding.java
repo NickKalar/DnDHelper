@@ -19,12 +19,12 @@ public final class ActivitySpellListBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final RecyclerView spellRecyclerView;
 
   private ActivitySpellListBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerView) {
+      @NonNull RecyclerView spellRecyclerView) {
     this.rootView = rootView;
-    this.recyclerView = recyclerView;
+    this.spellRecyclerView = spellRecyclerView;
   }
 
   @Override
@@ -54,13 +54,13 @@ public final class ActivitySpellListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = rootView.findViewById(id);
-      if (recyclerView == null) {
+      id = R.id.spellRecyclerView;
+      RecyclerView spellRecyclerView = rootView.findViewById(id);
+      if (spellRecyclerView == null) {
         break missingId;
       }
 
-      return new ActivitySpellListBinding((ConstraintLayout) rootView, recyclerView);
+      return new ActivitySpellListBinding((ConstraintLayout) rootView, spellRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -16,12 +16,12 @@
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/default_image.png"
     },
     {
-        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_fighter.png.flat",
         "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/fighter.png"
+    },
+    {
+        "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/nick/AndroidStudioProjects/DnDHelper/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/Users/nick/AndroidStudioProjects/DnDHelper/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

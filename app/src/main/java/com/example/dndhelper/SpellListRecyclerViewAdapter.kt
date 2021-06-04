@@ -15,26 +15,29 @@ import androidx.recyclerview.widget.RecyclerView
 
 private const val TAG = "SpellListRecycle"
 
-class SpellListRecyclerViewAdapter(private var spellList: List<SpellList>) :
-        RecyclerView.Adapter<SpellListRecyclerViewAdapter.SpellViewHolder>() {
+class SpellViewHolder(view: View) : RecyclerView.ViewHolder(view){
+    var spellName : TextView = view.findViewById(R.id.spellName)
+    var spellLevel : TextView = view.findViewById(R.id.spellLevel)
+    var spellClasses : TextView = view.findViewById(R.id.spellClasses)
+}
 
-    class SpellViewHolder(view: View) : RecyclerView.ViewHolder(view){
-        var spellName : TextView = view.findViewById(R.id.spellName)
-        var spellLevel : TextView = view.findViewById(R.id.spellLevel)
-        var spellClasses : TextView = view.findViewById(R.id.spellClasses)
-    }
+class SpellListRecyclerViewAdapter(private var spellList: List<SpellList>) :
+        RecyclerView.Adapter<SpellViewHolder>() {
+
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SpellViewHolder {
         // Called by layout manager when it needs a new view
-        Log.d(TAG, ".onCreateViewHolder new view requested")
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.browse_character, parent, false)
+//        Log.d(TAG, ".onCreateViewHolder new view requested")
+        val view = LayoutInflater.from(parent.context)
+                .inflate(R.layout.browse_spells, parent, false)
         return SpellViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: SpellViewHolder, position: Int) {
         val spellItem = spellList[position]
-        Log.d(TAG, ".onBindViewHolder: ${spellItem.name} --> $position")
-        val image : Drawable = Drawable.createFromPath("drawable/cleric")!!
+//        Log.d(TAG, ".onBindViewHolder: ${spellItem.name} --> $position")
+//        val image : Drawable = Drawable.createFromPath("drawable/cleric")!!
 
         holder.spellName.text = spellItem.name
         holder.spellLevel.text = spellItem.level
@@ -42,7 +45,12 @@ class SpellListRecyclerViewAdapter(private var spellList: List<SpellList>) :
     }
 
     override fun getItemCount(): Int {
-        Log.d(TAG, ".getItemCount called")
+//        Log.d(TAG, ".getItemCount called")
         return if (spellList.isNotEmpty()) spellList.size else 0
+    }
+
+    fun loadNewData(newSpells: List<SpellList>){
+        spellList = newSpells
+        notifyDataSetChanged()
     }
 }

@@ -2,8 +2,11 @@ package com.example.dndhelper
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.*
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.dndhelper.databinding.ActivitySpellListBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -19,8 +22,13 @@ import java.net.URL
 
 private const val TAG = "SpellListActivity"
 
-class SpellListActivity : AppCompatActivity() {
+class SpellListActivity : AppCompatActivity(),
+        RecyclerItemClickListener.OnRecyclerClickListener {
     private lateinit var binding: ActivitySpellListBinding
+
+    private val spellListRecyclerViewAdapter = SpellListRecyclerViewAdapter(ArrayList())
+
+    private lateinit var list: List<SpellList>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +36,12 @@ class SpellListActivity : AppCompatActivity() {
         binding = ActivitySpellListBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+        val recyclerView = findViewById<RecyclerView>(R.id.spellRecyclerView)
+
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.addOnItemTouchListener((RecyclerItemClickListener(this, recyclerView, this)))
+        recyclerView.adapter = spellListRecyclerViewAdapter
 
         val url : URL? = try{
             URL("https://www.kalar.codes/static/js/spelllist2.json")
@@ -41,14 +55,24 @@ class SpellListActivity : AppCompatActivity() {
             url?.getString()?.apply {
 
                 withContext(Dispatchers.Default){
-                    val list = parseJson(this@apply)
+                    list = parseJson(this@apply)
 
                     withContext(Dispatchers.Main){
                         Log.d(TAG, "url tostring ${list[0].name}")
+                        Log.d(TAG, "url tostring ${list[409].name}")
+                        spellListRecyclerViewAdapter.loadNewData(list)
                     }
                 }
             }
         }
+    }
+
+    override fun onItemClick(view: View, position: Int) {
+        Log.d(TAG, ".onItemClick: starts")
+    }
+
+    override fun onItemLongClick(view: View, position: Int) {
+        Log.d(TAG, ".onItemLongClick: starts")
     }
 }
 

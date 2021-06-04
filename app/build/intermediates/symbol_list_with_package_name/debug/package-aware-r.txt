@@ -1640,7 +1640,6 @@ id profLang
 id progress_circular
 id progress_horizontal
 id radio
-id recyclerView
 id right
 id right_icon
 id right_side
@@ -1682,6 +1681,7 @@ id spellClasses
 id spellLevel
 id spellList
 id spellName
+id spellRecyclerView
 id split_action_bar
 id spread
 id spread_inside

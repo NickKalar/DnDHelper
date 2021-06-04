@@ -23,13 +23,13 @@ public final class ActivityCharactersBinding implements ViewBinding {
   public final FloatingActionButton btnAddChar;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final RecyclerView spellRecyclerView;
 
   private ActivityCharactersBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FloatingActionButton btnAddChar, @NonNull RecyclerView recyclerView) {
+      @NonNull FloatingActionButton btnAddChar, @NonNull RecyclerView spellRecyclerView) {
     this.rootView = rootView;
     this.btnAddChar = btnAddChar;
-    this.recyclerView = recyclerView;
+    this.spellRecyclerView = spellRecyclerView;
   }
 
   @Override
@@ -65,13 +65,14 @@ public final class ActivityCharactersBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = rootView.findViewById(id);
-      if (recyclerView == null) {
+      id = R.id.spellRecyclerView;
+      RecyclerView spellRecyclerView = rootView.findViewById(id);
+      if (spellRecyclerView == null) {
         break missingId;
       }
 
-      return new ActivityCharactersBinding((ConstraintLayout) rootView, btnAddChar, recyclerView);
+      return new ActivityCharactersBinding((ConstraintLayout) rootView, btnAddChar,
+          spellRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
